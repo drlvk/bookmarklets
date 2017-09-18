@@ -1,5 +1,5 @@
 var w = document.querySelector('a[href*="webwork.syr.edu"]').href.split("?")[0];
-var u = document.querySelector('a[href*="@syr.edu"]');
+var u = document.querySelector('a[href*="mailto:"]');
 if (u) {  // Works in Gmail 
   u = u.href.split("@")[0].split(":")[1];
 }
