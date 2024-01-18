@@ -6,7 +6,7 @@ for (e of s) {
   if (/\d{9}/.test(t)) {
     n.push(t);
     if (r.indexOf(t)==-1) {
-	    console.log(t);   // added 
+	    console.log('Added: ' + t);
 	  }
   }
 }
